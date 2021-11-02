@@ -4,7 +4,7 @@ import React from "react";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default props =>{
-        let classes = 'button'
+        let classes = 'button ';
         classes += props.operantion ? 'operation' : ''
         classes += props.double ? 'double' : ''
         classes += props.triple ? 'triple' : ''
